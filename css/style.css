@@ -52,3 +52,11 @@ input[type="email"] {
     padding-top: 10px;
     color: #8cc1ec
 }
+
+#error-msg {
+    display: none;
+    color: #ff2851;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
