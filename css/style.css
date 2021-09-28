@@ -14,7 +14,7 @@ body {
     );
 }
 
-.container{
+.container {
     width: 400px;
     background-color: #fff;
     padding: 50px 30px;
@@ -24,5 +24,22 @@ body {
     left: 50%;
     border-radius: 10px;
     box-shadow: 25px 25px 30px rgba(0,0,0,0.15);
-    color: #01152c;
+    color: black;
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="email"] {
+    display: inline-block;
+    border: 2px solid #2c9dfa;
+    width: 88%;
+    height: 45px;
+    border-radius: 5px;
+    padding: 0 20px;
+    outline: none;
+    letter-spacing: 0.5px;
 }
